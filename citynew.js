@@ -1,4 +1,4 @@
-let apikey="af7d09c961691d7b61782b2f8296d1f4";
+let apikey="apikey";
 
 function hide(){
   document.getElementById("name").innerHTML="";
