@@ -35,7 +35,7 @@ This first lands you in a page that requests for the Name of the City along with
 NOTE: Just like in the Login/Sign up page, here the JS code is used to check if the user enters all the details. If not appropriate message regarding the condition is displayed.
 #### Know more
 This feature gives you more information about the Weather in terms of Precautions, food habits etc..
-### Units of measurement
+#### Units of measurement
 This application also provides you with an option to switch between the various units of measurement of the temperature namely Celsius, Fahrenheit and Kelvin.
 #### Log Out
 This directs the user to the Landing Page again
