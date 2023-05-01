@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./stylehome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="container" id="container">
+            <div id="tag">Fetching the Details...</div>
+            <h2 id="name"></h2>
+            <h3 id="weather"></h3>
+            <h4 id="desc"></h4>
+            <img id = "icon" src="">
+            <h1 id = "temperature"></h1>
+            <h3 id="wind"></h3>
+            <h3 id="humidity"></h3>
+            <br>
+            <div class="flex-container-degree" id = "flex-container-degree" style="display: none;">
+                <button class="button_degree" onclick="celsius()">C</button>
+                <button class="button_degree" onclick="fahrenheit()">F</button>
+                <button class="button_degree" onclick="kelvin()">K</button>
+            </div>
+            <div class="flex-container" id="flex-container" style="visibility: hidden;">
+                <button class="home" id="home" onclick="location.replace('./home2.html')" style="margin-left: 0;margin-right: auto;">Home</button>
+                <button class="knowmore" id="knowmore" onclick="knowmore()">Know more</button>
+            </div>
+        </div>
+        </div>
+        <script src="./currentlocation.js"></script>
+        <script src="./degree.js"></script>
+        <script src="./knowmore.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+  :root {
+    --white: #ffffff;
+    --off-white: #e5e5e5;
+    --transp-white-1: rgba(255, 255, 255, 0.25);
+    --transp-white-2: rgba(255, 255, 255, 0.1);
+    --blue-1: #010317;
+    --blue-2: #004e92;
+    --shadow: rgba(3, 46, 87, 0.2);
+  }
+  body {
+    height: 100vh;
+    background: linear-gradient(135deg, var(--blue-1), var(--blue-2));
+  }
+  .wrapper,.signup {
+    font-size: 16px;
+    width: 90vw;
+    max-width: 28em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .container {
+    width: 100%;
+    background: var(--transp-white-2);
+    backdrop-filter: blur(10px);
+    padding: 3em 1.8em;
+    border: 2px solid var(--transp-white-2);
+    border-radius: 0.6em;
+    box-shadow: 0 1.8em 3.7em var(--shadow);
+    text-align: center;
+  }
+  .shape {
+    position: absolute;
+    background-color: var(--transp-white-1);
+    backdrop-filter: blur(1.2em);
+    border: 2px solid var(--transp-white-2);
+    border-radius: 50%;
+  }
+  .shape-1 {
+    height: 13em;
+    width: 13em;
+    right: -6.5em;
+    top: 1.8em;
+  }
+  .shape-2 {
+    height: 11em;
+    width: 11em;
+    bottom: -3.7em;
+    left: -2.5em;
+ }
+ h1,h2,h3,h4,label{
+    color: white;
+ }
+ .button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+  @media screen and (max-width: 450px) {
+    .wrapper {
+      font-size: 14px;
+    }
+  }
+
+#Email,#username{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+#Pass{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-weight: bold;
+
+}
+#search-bar{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+#otp,#city,#countrycode{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-weight: bold;
+  font-size: medium;
+}
+a:link{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: underline;
+}
+#login,#signup{
+  color: white;
+  font-weight: bold;
+}
+.otp{
+  color: white;
+}
+#search-btn,#home,#knowmore{
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.button_degree {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+a:link,a:active,a:visited{
+  color:white;
+}
+a:hover{
+  text-decoration: underline;
+}
+#tag{
+  color:white;
+}
+.flex-container{
+  display: flex;
+}
+
+header {
+  background: var(--transp-white-2);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  box-shadow: 0 1.8em 3.7em var(--shadow);
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.tab {
+  float: left;
+  background: var(--transp-white-2);
+  width: 20%;
+  height: 100%;
+}
+
+.tab button {
+  background-color: inherit;
+  color: rgb(255, 255, 255);
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ffffff;
+  color:black;
+}
+
+.tab button.active {
+  background-color: #a19393;
+  color:black;
+}
+
+article {
+  float: left;
+  padding: 40px;
+  width: 70%;
+  font-size: 20px;
+  text-align: justify;
+  color:white;
+}
+footer{
+  background: var(--transp-white-2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding:20px;
+  color:white;
+  text-align: center;
+}
