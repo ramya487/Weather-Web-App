@@ -5,6 +5,10 @@ A Prototype of the Weather Determination Application which lets you know about t
 - HTML
 - CSS
 - JAVASCRIPT
+-<br>
+
+NOTE: Require apikey to fetch the weather
+
 ### Work Flow
 #### Login/Sign Up
 This Weather Application will first land in a page that requests to either login or sign up.
