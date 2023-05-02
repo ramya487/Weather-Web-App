@@ -1,14 +1,13 @@
 # Weather-Web-Application
 ### Description
-A Prototype of the Weather Determination Application which lets you know about the Weather Conditions of any place. The main aim of this project is to come up with a system that provides real time Weather Information quickly and efficiently
+A Prototype of the Weather Determination Application developed using OpenWeatherMap API, that lets you know about the Weather Conditions of any place. The main aim of this project is to come up with a system that provides real time Weather Information quickly and efficiently
 ### Tools Used
 - HTML
 - CSS
 - JAVASCRIPT
 -<br>
-
-NOTE: Require apikey to fetch the weather
-
+### Prerequisites
+- OpenWeatherMap API
 ### Work Flow
 #### Login/Sign Up
 This Weather Application will first land in a page that requests to either login or sign up.
